@@ -5,9 +5,9 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
+        API_HASH = "89ebdbc6e7bf9195bde696b0e9b3c387"
+        API_ID = 8941261
+        BOT_TOKEN = "1998570339:AAGnc97dhnar2w6tITYpLegXdku4qhoys38"
         BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
@@ -15,16 +15,16 @@ except:
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = []
-        OWNER_ID = 0
+        OWNER_ID = 2025727672
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = True
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 10
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 170000000000
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
@@ -36,14 +36,14 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = ""
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
-        MEGA_ENABLE = False
-        MEGA_API = ""
+        MEGA_ENABLE = True
+        MEGA_API = "o5EmgDSK"
         MEGA_UNAME = None
         MEGA_PASS = None
 
@@ -65,23 +65,23 @@ except:
         RCLONE_CONFIG = False
         
         # Name of the RCLONE drive from the config
-        DEF_RCLONE_DRIVE = ""
+        DEF_RCLONE_DRIVE = "onedrive"
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 2000
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 10000
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
         BOT_CMD_POSTFIX = "" 
 
         # Time out for the status Delete.
-        STATUS_DEL_TOUT = 20
+        STATUS_DEL_TOUT = 10
 
         # Allow the user settings to be accessed in private
-        USETTINGS_IN_PRIVATE = False
+        USETTINGS_IN_PRIVATE = True
 
         # Torrent max time to collect metadata in seconds
         TOR_MAX_TOUT = 180
