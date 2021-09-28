@@ -8,7 +8,7 @@ except:
         API_HASH = "89ebdbc6e7bf9195bde696b0e9b3c387"
         API_ID = 8941261
         BOT_TOKEN = "1998570339:AAGnc97dhnar2w6tITYpLegXdku4qhoys38"
-        BASE_URL_OF_BOT = ""
+        BASE_URL_OF_BOT = "http://megaheda.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = ""
+        DB_URI = "postgres://ihxrvqrj:5e-1d57pAhNUxMLE0bKEqeAIRNVDYVxx@kashin.db.elephantsql.com/ihxrvqrj"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
