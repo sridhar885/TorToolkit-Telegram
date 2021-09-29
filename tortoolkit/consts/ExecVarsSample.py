@@ -8,13 +8,13 @@ except:
         API_HASH = "89ebdbc6e7bf9195bde696b0e9b3c387"
         API_ID = 8941261
         BOT_TOKEN = "1998570339:AAGnc97dhnar2w6tITYpLegXdku4qhoys38"
-        BASE_URL_OF_BOT = "http://megaheda.herokuapp.com"
+        BASE_URL_OF_BOT = "http://20.96.123.67"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [-1001508551596]
         OWNER_ID = 2025727672
         
         # Google Drive Index Link should include the base dir also See readme for more info
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        #DB_URI = "postgres://ihxrvqrj:5e-1d57pAhNUxMLE0bKEqeAIRNVDYVxx@kashin.db.elephantsql.com/ihxrvqrj"
+        #  DB_URI = "postgres://ihxrvqrj:5e-1d57pAhNUxMLE0bKEqeAIRNVDYVxx@kashin.db.elephantsql.com/ihxrvqrj"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         DB_URI = "postgres://ihxrvqrj:5e-1d57pAhNUxMLE0bKEqeAIRNVDYVxx@kashin.db.elephantsql.com/ihxrvqrj"
