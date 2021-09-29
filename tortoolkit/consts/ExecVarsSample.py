@@ -36,10 +36,10 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgres://ihxrvqrj:5e-1d57pAhNUxMLE0bKEqeAIRNVDYVxx@kashin.db.elephantsql.com/ihxrvqrj"
+        #DB_URI = "postgres://ihxrvqrj:5e-1d57pAhNUxMLE0bKEqeAIRNVDYVxx@kashin.db.elephantsql.com/ihxrvqrj"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+        DB_URI = "postgres://ihxrvqrj:5e-1d57pAhNUxMLE0bKEqeAIRNVDYVxx@kashin.db.elephantsql.com/ihxrvqrj"
         
         # MEGA CONFIG
         MEGA_ENABLE = True
